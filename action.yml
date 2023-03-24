@@ -22,7 +22,7 @@ runs:
       with:
         tag_prefix: "v"
         major_pattern: "break:"
-        minor_pattern: "feat:"
+        minor_pattern: "Merge"
         patch_pattern: "fix:"
         format: "${major}.${minor}.${patch}"
 
